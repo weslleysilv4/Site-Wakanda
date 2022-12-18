@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+
+@font-face {
+    font-family: "Wakanda";
+    src: local("Wakanda"),
+      url("fonts/WAKANDA\ PANTHER.ttf") format("truetype");
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+header {
+    background-color: #211e1e;
+    color: #dedede;
+    padding: 18px;
+}
+
+header h1{
+    font-family: 'Wakanda';
+    font-size: 24px;
+    font-weight: normal;
+}
+
+header h1:hover{
+    color: #d5933b;
+    cursor: pointer;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul li a {
+    color: #dedede;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 16px;
+    padding: 10px;
+}
+
+header ul li a:hover{
+    color: #d5933b;
+    border-bottom: 3px solid #d5933b;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+
+section {
+    background-color: #fefefe;
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container h2{
+    padding:20px 0;
+    z-index: 3;
+    font-size: 28px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section .container img{
+    max-height: 600px;
+    height: 100%;
+    padding: 20px 0;
+    z-index: 1;
+}
+#importantH .container p{
+    margin-left: 20px;
+}
+
+#Actors {
+    background-color: #211e1e;
+    color: white;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#Actors > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#Actors h3 {
+    padding: 20px;
+}
+
+#Actors p {
+   text-align: center;
+   margin-bottom: 16px;
+}
+
+#Actors article ul li{
+    display: inline;
+}
+
+#Actors article img{
+    max-height: 300px;
+    height: 100%;
+}
+
+.actors-List {
+    display: flex;
+    margin: 0 auto;
+}
+
+.actors-List li {
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+}
+.actors-List li img {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.actors-List figcaption {
+    text-align: center;
+}
+
+#socialBp .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socialBp img {
+    max-height: 400px;
+    width:100%;
+    object-fit: cover;
+}
+
+#socialBp h2{
+    padding: 40px 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#socialBp p {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+#contact {
+    background-color: #d5933b;
+}
+
+#contact > .container {
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.form-methods form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-methods input, button{
+    padding: 16px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+.form-methods button{
+    cursor: pointer;
+    background-color: #211e1e;
+    color: #dedede;
+}
+
+.form-methods input:focus{
+    color: #d5933b;
+}
+
+.form-methods button:hover{
+    color: #d5933b;
+    font-weight: bold;
+}
+
+.social-List ul li a{
+    color: #472f0e;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.social-List ul li{
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.social-List ul li a, .social-List ul li a i{
+    text-decoration: none;
+}
+
+.social-List ul li a:hover{
+    color: #000000;
+    font-weight: bold;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+footer{
+    background-color: #211e1e;
+    padding: 20px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+footer .container div{
+    display: block;
+}
+
+footer .container div a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin-left: 16px;
+}
